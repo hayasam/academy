@@ -21,3 +21,4 @@ pytz
 ray
 ray[default]
 box2d-py
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

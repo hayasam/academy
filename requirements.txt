@@ -27,3 +27,5 @@ jupyterlab
 mlflow
 vaderSentiment
 gputil
+ray>=2.52.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability

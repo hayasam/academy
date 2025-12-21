@@ -1,5 +1,5 @@
 tensorflow==2.8
-torch==1.12.1
+torch==2.2.0
 pyarrow==6.0.1
 matplotlib==3.5.3
 # Note for Anyscale users: install ray from latest nightly wheel
@@ -18,3 +18,4 @@ gin-config
 # Note move this to post-processing due to install flags
 #git+https://github.com/google/dopamine --no-deps 
 seaborn
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability

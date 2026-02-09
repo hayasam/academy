@@ -18,3 +18,4 @@ gin-config
 # Note move this to post-processing due to install flags
 #git+https://github.com/google/dopamine --no-deps 
 seaborn
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
